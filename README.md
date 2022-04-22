@@ -17,6 +17,6 @@ This program gets a channel's username as input, extract every id and telegram l
 # What are the txt files?
 **links.txt:**  The links and IDs they were extracted from the channel
 
-**done-links.txt** The links and IDs the program extracted their admins' usernames
+**done-links.txt:** The links and IDs the program extracted their admins' usernames
 
-**admins.txt** The extracted admins' usernames from every groups and supergroups
+**admins.txt:** The extracted admins' usernames from every groups and supergroups

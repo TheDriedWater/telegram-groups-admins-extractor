@@ -37,13 +37,13 @@ def get_links(channel_id):
     links = list(dict.fromkeys(links))
     
     # convert t.me/channel to @channel
+    new_links = []
     for link in links:
-        if ("+" not in link) and (link.count("/") != 4 ) and (link.count("@") == 0):
-            links.remove(link)
+        if ("+" not in link) and (link.count("/") != 4 ) and (link.count("@") == 0) and (len(link.split("/")) >= 4):
             link = "@" + link.split("/")[3]
-            links.append(link)
+        new_links.append(link)
     
-    return links
+    return new_links
       
 
 def get_admins(group_id):
@@ -109,9 +109,9 @@ def get_admins(group_id):
     asyncio.run(main())
 
 if channel_username == "0":
-    with open("links.txt", "r") as f:
+    with open("links.txt", "r", encoding="UTF-8") as f:
         previous_links = f.readlines()
-    with open("done-links.txt", "r") as f:
+    with open("done-links.txt", "r", encoding="UTF-8") as f:
         done_links = f.readlines()
         
     links = []

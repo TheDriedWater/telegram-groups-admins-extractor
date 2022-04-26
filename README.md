@@ -3,6 +3,9 @@ This program gets a channel's username as input, extract every id and telegram l
 
 **DON'T FORGET TO GIVE IT A STAR IF YOU FOUND IT USEFUL <3**
 
+# DISCLAIMER
+This is only for learning purposes and the creator doesn't have any responsibilities for wrong usage
+
 # How to start?
 1- Create a telegram app in my.telegram.org/apps.
 

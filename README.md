@@ -1,8 +1,6 @@
 # Telegram groups admins extractor
 This program gets a channel's username as input, extract every id and telegram links in the channel and then extract their admins' usernames.
 
-**DON'T FORGET TO GIVE IT A STAR IF YOU FOUND IT USEFUL <3**
-
 # DISCLAIMER
 This is only for learning purposes and the creator doesn't have any responsibilities for wrong usage
 
@@ -25,3 +23,7 @@ This is only for learning purposes and the creator doesn't have any responsibili
 **done-links.txt:** The links and IDs the program extracted their admins' usernames
 
 **admins.txt:** The extracted admins' usernames from every groups and supergroups
+
+# BUY ME A COFFEE
+
+https://www.buymeacoffee.com/driedwater
